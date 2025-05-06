@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar .logo{
+    position: left top;
+    
+}
+.navbar{
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230321/pngtree-the-man-in-digital-security-concept-pressing-button-man-in-digital-photo-image_1986309.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-right: 40px;
+  padding-left:10px
+}
+.navbar .nav-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.navbar .nav-logo .logo img {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.navbar .nav-logo .nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul a{
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(216, 233, 220);
+    text-decoration-line: none ;
+    transition: background-color 0.3s;
+}
+.but a{
+    text-decoration-line:none ;
+}
+.nav ul a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.bottom{
+    padding: 150px;
+}
+.bottom p {
+    font-size: 22px;
+    color: rgb(185, 196, 39);
+}
+.bottom h1{
+    font-size: 30px;
+    font-weight: 15px;
+    color: white;
+}
+.bottom .bt{
+    padding-left: 50px;
+}
+.bottom .but{
+    margin-top: 8px;
+    font-size: 20px;
+    color: rgb(212, 175, 52);
+    transition: background-color 0.3s;
+}
+.bottom .but:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.icon{
+    margin:30px 50px 0px 50px;
+    background-color: antiquewhite;
+}
+.icon img{ 
+    margin-left: 60px;
+}
+.service-title{
+    text-decoration: underline red dotted 10px;
+    margin-top : 30px;
+    font-size : 50px;
+    text-align : center; 
+}
+.service-p{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.service{
+    margin: 50px 30px 20px 30px;
+}
+.service-1{
+    display: flex;
+    justify-content: space-between;
+}
+.service-2{
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: 600px;
+    border: 2px solid rgb(66, 32, 108);
+    padding: 10px;
+    margin: 30px;    
+}
+.block h3{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(145, 147, 17);
+}
+.block p{
+    padding-top: 10px;
+}
+.last{
+    margin-left: 100px;
+    padding-left: 150px;
+    /* align-items: center; */
+    display: flex;
+}
+
+.last2{
+    width: 400px;
+}
+.last2 .sp{
+    background-color: aqua;
+}
+.last2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(216, 146, 26);
+}
+
+.last2 .h{
+    color: rgb(36, 28, 28);
+}
+.last2 .call{
+    margin-top:10px;
+    display: flex;
+    justify-content: left;
+}
+.last2 .call-icon{
+    font-size: 40px;
+    color: rgb(40, 205, 78);
+}
+.last2.call h3{
+    padding-left: 20px;
+}
+.footer{
+    padding: 20px;
+    background-color: rgb(114, 75, 75);
+}
+.footsec{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+}
+.f1{
+    text-align: center;
+    width: 300px;
+}
+.f1-call{
+    display: flex;
+}
+.f1-icon{
+    position: left top ;
+    font-size: 40px;
+    color: rgb(222, 13, 97);
+    margin-right: 5px;
+}
+.f1-icon img{
+    height: 60px;
+    width: 60px;
+}
+.con{
+    margin-top: 15px;
+    font-size: 20px;
+    color: yellow;
+}
+.f1 .noti{
+    margin-top: 10px;
+    color: yellow;
+}
+.f1 .input{
+    margin-top:8px ;
+    height: 30px;   
+}
+.f1 p{
+    font-size: 20px;
+}
+.row h2{
+    color: yellow;
+}
+.butt{
+    width: 50px;
+    height: 20px;
+    background-color: greenyellow;
+}
+.f-col2{
+    margin-right:30px; 
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col h4{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    margin-right:30px; 
+}
